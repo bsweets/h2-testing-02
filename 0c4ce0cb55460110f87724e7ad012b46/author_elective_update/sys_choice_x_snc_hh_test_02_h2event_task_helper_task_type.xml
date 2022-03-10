@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="helper_task_type" table="x_snc_hh_test_02_h2event_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>helper_task_type</element>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:23</sys_created_on>
+            <sys_id>4fb9e50b554a0110f87724e7ad012b56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>helper_task_type</sys_name>
+            <sys_package display_value="HH Test 02" source="x_snc_hh_test_02">0c4ce0cb55460110f87724e7ad012b46</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HH Test 02">0c4ce0cb55460110f87724e7ad012b46</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hh_test_02_h2event_task_helper_task_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leader</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bb9e50b554a0110f87724e7ad012b56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:23</sys_updated_on>
+            <value>leader</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Note-taker</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfb9e50b554a0110f87724e7ad012b7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:24</sys_updated_on>
+            <value>note_taker</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scheduler</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93b9e50b554a0110f87724e7ad012b83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:24</sys_updated_on>
+            <value>scheduler</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Setup</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57b9e50b554a0110f87724e7ad012b86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:24</sys_updated_on>
+            <value>setup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Food</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bb9e50b554a0110f87724e7ad012b89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:24</sys_updated_on>
+            <value>food</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cleanup</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93b9e50b554a0110f87724e7ad012b99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:25</sys_updated_on>
+            <value>cleanup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Manager</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67b9e50b554a0110f87724e7ad012b9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:25</sys_updated_on>
+            <value>project_manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Individual Contributor</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb9e50b554a0110f87724e7ad012b9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:26</sys_updated_on>
+            <value>individual_contributor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>helper_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 21:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebb9e50b554a0110f87724e7ad012ba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 21:12:26</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

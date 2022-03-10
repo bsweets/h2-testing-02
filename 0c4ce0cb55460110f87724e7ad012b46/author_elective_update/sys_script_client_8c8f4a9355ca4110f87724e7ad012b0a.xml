@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>This Script is a Disaster</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+ g_form.showFieldMsg("short_description","Hello World");  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 18:37:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c8f4a9355ca4110f87724e7ad012b0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>This Script is a Disaster</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HH Test 02" source="x_snc_hh_test_02">0c4ce0cb55460110f87724e7ad012b46</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HH Test 02">0c4ce0cb55460110f87724e7ad012b46</sys_scope>
+        <sys_update_name>sys_script_client_8c8f4a9355ca4110f87724e7ad012b0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 18:37:10</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HH Test 02">0c4ce0cb55460110f87724e7ad012b46</application>
+        <file_path/>
+        <instance_id>41ce16c945310110adfc9f3392cdba38</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_client_8c8f4a9355ca4110f87724e7ad012b0a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;This Script is a Disaster&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+ g_form.showFieldMsg("short_description","Hello World");  
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-10 18:37:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8c8f4a9355ca4110f87724e7ad012b0a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;This Script is a Disaster&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="HH Test 02" source="x_snc_hh_test_02"&gt;0c4ce0cb55460110f87724e7ad012b46&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HH Test 02"&gt;0c4ce0cb55460110f87724e7ad012b46&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8c8f4a9355ca4110f87724e7ad012b0a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-10 18:37:10&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>587297505</payload_hash>
+        <record_name>This Script is a Disaster</record_name>
+        <reverted_from/>
+        <source>4c4ce0cb55460110f87724e7ad012b48</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 18:37:10</sys_created_on>
+        <sys_id>cbcf8a9355ca4110f87724e7ad012b16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f751edb460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 18:37:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>07cf8a9398ca4110d8ba96dd864ffc16</update_guid>
+        <update_guid_history>07cf8a9398ca4110d8ba96dd864ffc16:587297505</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 18:39:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0188850e8d5d4010926f5236eddeaa10</sys_id>
+        <sys_metadata>8c8f4a9355ca4110f87724e7ad012b0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>This Script is a Disaster</sys_name>
+        <sys_package display_value="HH Test 02" source="x_snc_hh_test_02">0c4ce0cb55460110f87724e7ad012b46</sys_package>
+        <sys_parent display_value="Incident">8660eec145b10110adfc9f3392cdba86</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HH Test 02">0c4ce0cb55460110f87724e7ad012b46</sys_scope>
+        <sys_scope_delete display_value="">5bf90f19770c46d09bb983545f5ade71</sys_scope_delete>
+        <sys_update_name>sys_script_client_8c8f4a9355ca4110f87724e7ad012b0a</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8c8f4a9355ca4110f87724e7ad012b0a">cbcf8a9355ca4110f87724e7ad012b16</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 18:39:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

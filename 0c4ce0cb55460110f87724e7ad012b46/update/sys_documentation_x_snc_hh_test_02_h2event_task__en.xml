@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="H2Event Task" language="en" table="x_snc_hh_test_02_h2event_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>H2Event Task</label>
+            <language>en</language>
+            <name>x_snc_hh_test_02_h2event_task</name>
+            <plural>H2Event Tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 17:06:26</sys_created_on>
+            <sys_id>dc71b40355860110f87724e7ad012bbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>H2Event Task</sys_name>
+            <sys_package display_value="HH Test 02" source="x_snc_hh_test_02">0c4ce0cb55460110f87724e7ad012b46</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HH Test 02">0c4ce0cb55460110f87724e7ad012b46</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_hh_test_02_h2event_task__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 17:06:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

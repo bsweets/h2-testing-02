@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="H2Event Task" max_length="40" name="x_snc_hh_test_02_h2event_task" sizeclass="3" type="collection">
+        <element choice="1" label="Assigned to type" max_length="40" name="assigned_to_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Volunteer" sequence="0" value="volunteer"/>
+                <element inactive_on_update="false" label="Compensated" sequence="1" value="compensated"/>
+            </choice>
+        </element>
+        <element label="Compensation amount" max_length="40" name="compensation_amount" type="currency2"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_hh_test_02_h2event" type="reference"/>
+        <element choice="3" default="other" label="Helper task type" max_length="40" name="helper_task_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Leader" sequence="0" value="leader"/>
+                <element inactive_on_update="false" label="Note-taker" sequence="1" value="note_taker"/>
+                <element inactive_on_update="false" label="Scheduler" sequence="2" value="scheduler"/>
+                <element inactive_on_update="false" label="Setup" sequence="3" value="setup"/>
+                <element inactive_on_update="false" label="Food" sequence="4" value="food"/>
+                <element inactive_on_update="false" label="Cleanup" sequence="5" value="cleanup"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="6" value="project_manager"/>
+                <element inactive_on_update="false" label="Individual Contributor" sequence="7" value="individual_contributor"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+            </choice>
+        </element>
+        <element label="Other" max_length="100" name="other" type="string"/>
+    </element>
+</database>
